@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack Practice</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <h1>Blackjack</h1>
     <p id="message-el">You've got blackjack</p>
-    <p>Cards: </p>
-    <p>Sum: </p>
-    <button>START GAME</button> <br>
-    <button>NEW CARD</button>
+    <p id="cards-el">Cards: </p>
+    <p id="sum-el">Sum: </p>
+    <button onclick="startGame()">START GAME</button> <br>
+    <button onclick="newCard()">NEW CARD</button>
 </body>
 </html>
