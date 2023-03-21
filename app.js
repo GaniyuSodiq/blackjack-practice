@@ -21,3 +21,9 @@ function startGame() {
     }
     messageEl.textContent = message
 }
+
+function newCard() {
+    let card = 3
+    sum += card
+    startGame()
+}
